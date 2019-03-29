@@ -14,7 +14,7 @@ means that the margins on the left and right will always be equal i.e. it should
 .container{
     width: 80%;
     margin:auto;
-    overflow:hidden;
+    overflow:scroll;
 }
 
 /*Color is for text, background is for backgroud*/
