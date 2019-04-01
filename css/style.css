@@ -173,6 +173,7 @@ header a:hover{
     margin-left: 20px;
     margin-right: 20px;
     font-weight: normal;
+    min-width: 400px;
 }
 
 #languages img, #software img{
