@@ -189,7 +189,7 @@ header a:hover{
 #bio h2{
     color: #72AAA6;
     background: #E9FEFA;
-    border-radius: 20px 20px 20px 20px;
+    /*border-radius: 20px 20px 20px 20px;*/
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
@@ -197,14 +197,14 @@ header a:hover{
 
 #languages{
     background-color: #595959;
-    border-radius: 20px 20px 20px 20px;
+    /*border-radius: 20px 20px 20px 20px;*/
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 #software{
     background-color: #595959;
-    border-radius: 20px 20px 20px 20px;
+    /*border-radius: 20px 20px 20px 20px;*/
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -254,13 +254,13 @@ header a:hover{
     font-size:33px;
     text-align:center;
     background-color: #D4FDF6;
-    border-radius: 20px 20px 20px 20px;
+    /*border-radius: 20px 20px 20px 20px;*/
 }
 #workExperienceTitle h3{
     font-size:33px;
     text-align:center;
     background-color: #16F4D0;
-    border-radius: 20px 20px 20px 20px;
+    /*border-radius: 20px 20px 20px 20px;*/
     width: 75%;
     margin-left:auto;
     margin-right:auto;
@@ -269,7 +269,7 @@ header a:hover{
     padding-right: 20px;
     padding-left: 20px;
     padding-bottom: 20px;
-    border-radius: 20px 20px 20px 20px;
+    /*border-radius: 20px 20px 20px 20px;*/
 }
 #projects{
     overflow-x: auto;
@@ -294,7 +294,7 @@ header a:hover{
 }
 #portfolio a{
     text-decoration:none;
-    color: #16F4D0;
+    color: #161835;
 }
 #portfolio tr{
     margin-top: 30px;
