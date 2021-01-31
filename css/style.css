@@ -8,6 +8,19 @@ body{
     background-color:#383838;
 }
 
+hr{
+    width: 50%;
+    margin:auto;
+}
+
+header{
+    margin-bottom: 20px;
+}
+
+header p{
+    font-size: 20px;
+}
+
 .flex-container-center{
     width: 80%;
     margin: auto;
@@ -28,8 +41,9 @@ body{
     text-align: center;
 }
 
-header p{
-    font-size: 20px;
+.contact-info-item{
+    display: flex;
+    align-items:center;
 }
 
 #title{
@@ -41,7 +55,24 @@ header p{
     flex-direction: column;
 }
 
-#title-divider{
-    width: 50%;
-    margin:auto;
+#contact-info{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+
+#contact-info img{
+    width: 40px;
+    margin-left: 10px;
+    margin-right:10px;
+}
+
+#contact-info a{
+    display: flex;
+    text-decoration:none;
+    text-transform: uppercase;
+    color: #F2F2F2;
 }
