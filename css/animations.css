@@ -142,3 +142,40 @@ animation: fadeInDelay3 ease 4s;
 75% {opacity:0;}
 100% {opacity:1;}
 }
+
+.fade-in-delay4 {
+animation: fadeInDelay4 ease 5s;
+-webkit-animation: fadeInDelay4 ease 5s;
+-moz-animation: fadeInDelay4 ease 5s;
+-o-animation: fadeInDelay4 ease 5s;
+-ms-animation: fadeInDelay4 ease 5s;
+}
+@keyframes fadeInDelay4 {
+0% {opacity:0;}
+80% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeInDelay4 {
+0% {opacity:0;}
+80% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeInDelay4 {
+0% {opacity:0;}
+80% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeInDelay4 {
+0% {opacity:0;}
+80% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeInDelay4 {
+0% {opacity:0;}
+80% {opacity:0;}
+100% {opacity:1;}
+}
