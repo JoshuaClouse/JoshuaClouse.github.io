@@ -1,0 +1,144 @@
+/*Fade in code*/
+.fade-in {
+animation: fadeIn ease 1s;
+-webkit-animation: fadeIn ease 1s;
+-moz-animation: fadeIn ease 1s;
+-o-animation: fadeIn ease 1s;
+-ms-animation: fadeIn ease 1s;
+}
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+/*Fade in delay 1*/
+.fade-in-delay1 {
+animation: fadeInDelay1 ease 2s;
+-webkit-animation: fadeInDelay1 ease 2s;
+-moz-animation: fadeInDelay1 ease 2s;
+-o-animation: fadeInDelay1 ease 2s;
+-ms-animation: fadeInDelay1 ease 2s;
+}
+@keyframes fadeInDelay1 {
+0% {opacity:0;}
+50% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeInDelay1 {
+0% {opacity:0;}
+50% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeInDelay1 {
+0% {opacity:0;}
+50% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeInDelay1 {
+0% {opacity:0;}
+50% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeInDelay1 {
+0% {opacity:0;}
+50% {opacity:0;}
+100% {opacity:1;}
+}
+
+.fade-in-delay2 {
+animation: fadeInDelay2 ease 3s;
+-webkit-animation: fadeInDelay2 ease 3s;
+-moz-animation: fadeInDelay2 ease 3s;
+-o-animation: fadeInDelay2 ease 3s;
+-ms-animation: fadeInDelay2 ease 3s;
+}
+@keyframes fadeInDelay2 {
+0% {opacity:0;}
+66% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeInDelay2 {
+0% {opacity:0;}
+66% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeInDelay2 {
+0% {opacity:0;}
+66% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeInDelay2 {
+0% {opacity:0;}
+66% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeInDelay2 {
+0% {opacity:0;}
+66% {opacity:0;}
+100% {opacity:1;}
+}
+
+.fade-in-delay3 {
+animation: fadeInDelay3 ease 4s;
+-webkit-animation: fadeInDelay3 ease 4s;
+-moz-animation: fadeInDelay3 ease 4s;
+-o-animation: fadeInDelay3 ease 4s;
+-ms-animation: fadeInDelay3 ease 4s;
+}
+@keyframes fadeInDelay3 {
+0% {opacity:0;}
+75% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeInDelay3 {
+0% {opacity:0;}
+75% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeInDelay3 {
+0% {opacity:0;}
+75% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeInDelay3 {
+0% {opacity:0;}
+75% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeInDelay3 {
+0% {opacity:0;}
+75% {opacity:0;}
+100% {opacity:1;}
+}

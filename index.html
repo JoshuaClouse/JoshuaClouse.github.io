@@ -1,101 +1,100 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset= "utf-8">
-        <!--we give this meta atribute a name which is just viewport but we then we set the content to make the width equal to the width of the device-->
-        <meta name="viewport" content="width=device-width">
-        <meta name="description" content ="Game Designer and Programmer">
-        <meta name="keywords" content="game design, cs, computer science, programming, programmer">
-        <meta name="author" content="Josh Clouse">
-        <!--This is what displays in the tab of the webpage-->
-        <title>Josh Clouse | Home Page</title>
-        <!--This just states we will need a stylesheet followedby the file location-->
-        <link rel="stylesheet" href="./css/style.css">
-    </head>
-    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-    <body>
-        <header>
+
+<head>
+    <meta charset="utf-8">
+    <!--we give this meta atribute a name which is just viewport but we then we set the content to make the width equal to the width of the device-->
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Game Designer and Programmer">
+    <meta name="keywords" content="game design, cs, computer science, programming, programmer">
+    <meta name="author" content="Josh Clouse">
+    <!--This is what displays in the tab of the webpage-->
+    <title>Josh Clouse | Home Page</title>
+    <!--This just states we will need a stylesheet followedby the file location-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animations.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="flex-container-center" id="description">
+            <h1 class="description-item fade-in" id="title">Josh <span class="highlight">Clouse</span></h1>
+            <hr id="title-divider" class="fade-in">
+            <h1 class="description-item fade-in">GAME DESIGNER AND PROGRAMMER</h1>
+            <p class="description-item">
+                <span class="fade-in-delay1">UC Santa Cruz graduate </span>
+                <span class="fade-in-delay2">| Unity Developer </span>
+                <span class="fade-in-delay3">| Programmer</span>
+            </p>
+        </div>
+    </header>
+
+    <section>
+        <section id="newsletter">
             <div class="container">
-                <div id="branding">
-                    <!--h# are for titles. The lower the number, the bigger the text-->
-                    <!--span is like div but doesn't create a new line-->
-                    <h1>JOSH <span class = "highlight">CLOUSE</span></h1>
+                <div class="flex-container">
+                    <div class="flex-child"><img src="./images/email.png">JoshMClouse@gmail.com</div>
+                    <div class="flex-child"><img src="./images/linkedin.png"><a
+                            href="https://www.linkedin.com/in/joshua-clouse-b3a444155/">Linkedin</a></div>
+                    <div class="flex-child"><img src="./images/github.png"><a
+                            href="https://github.com/JoshuaClouse">Github</a></div>
                 </div>
-                <!--nav is for links, ul is unordered list, li is a item in a list, <a> is a link -->
-                <nav>
-                    <ul>
-                        <li class = "current"><a href="index.html">About</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                    </ul>
-                </nav>
             </div>
-        </header>
-        <section id="showcase">
+        </section>
+        <section id="picture">
             <div class="container">
-                <div class = "flex-container">
-                    <h1>GAME DESIGNER AND PROGRAMMER</h1>
-                    <!--used for paragraph text-->
-                </div>
-                <div class = "flex-container">
-                    <p>UC Santa Cruz graduate, with a solid foundation in math, logic, and computer science.</p>
+                <div class=flex-container>
+                    <img src="./images/me.jpg">
                 </div>
             </div>
         </section>
-        <section>
-            <section id="newsletter">
-                <div class = "container">
-                    <div class = "flex-container">
-                        <div class = "flex-child"><img src = "./images/email.png">JoshMClouse@gmail.com</div>
-                        <div class = "flex-child"><img src = "./images/linkedin.png"><a href = "https://www.linkedin.com/in/joshua-clouse-b3a444155/">Linkedin</a></div>
-                        <div class = "flex-child"><img src = "./images/github.png"><a href = "https://github.com/JoshuaClouse">Github</a></div>
-                    </div>
-                </div>
-        </section>
-        <section id = "picture">
-            <div class = "container">
-                <div class = flex-container>
-                    <img src = "./images/me.jpg">
-                </div>
-            </div>
-        </section>
-        <section id = "bio">
-            <div class = "conatiner">
-                <div class = "flex-container">
-                    <div id = "languages">
+        <section id="bio">
+            <div class="conatiner">
+                <div class="flex-container">
+                    <div id="languages">
                         <h2>Languages</h2>
                         <table>
                             <tr>
-                                <th><img src = "./images/javascriptLogo.png"></th>
-                                <th><img src = "./images/javaLogo.jpg"></th>
+                                <th><img src="./images/javascriptLogo.png"></th>
+                                <th><img src="./images/javaLogo.jpg"></th>
                             </tr>
                             <tr>
-                                <th><img src = "./images/cSharpLogo.png"></th>
-                                <th><img src = "./images/c++Logo.jpg"></th>
+                                <th><img src="./images/cSharpLogo.png"></th>
+                                <th><img src="./images/c++Logo.jpg"></th>
                             </tr>
                             <tr>
-                                <th><img src = "./images/cLogo.jpg"></li></th>
-                                <th><img src = "./images/pythonLogo.png"></th>
+                                <th><img src="./images/cLogo.jpg"></li>
+                                </th>
+                                <th><img src="./images/pythonLogo.png"></th>
                             </tr>
                             <tr>
-                                <th><img src = "./images/htmlLogo.png"></th>
+                                <th><img src="./images/htmlLogo.png"></th>
                             </tr>
-                        </table>    
+                        </table>
                     </div>
                     <div>
-                        <p>Hi, I'm Josh. I recently graduated UCSC with honors in Computer Science: Game Design. I have a strong foundation in computer science as well as a passion for game design. I am a quick learner, adaptable,
-                            and looking for a team oriented environment to apply my skillsets. In addition to school, I am currently developing a VR game with 12 other collaborators called Wacktory. 
-                            You can see this as well as some of my other work in my portfolio link. However, when I'm not staring at my computer screen, I spend my spare time (and money) playing and composing music. 
-                            If you are interested in having me serenade your ears, or would like me as part of your team, please feel free to contact me with the email provided above.
+                        <p>Hi, I'm Josh. I recently graduated UCSC with honors in Computer Science: Game Design. I have
+                            a strong foundation in computer science as well as a passion for game design. I am a quick
+                            learner, adaptable,
+                            and looking for a team oriented environment to apply my skillsets. In addition to school, I
+                            am currently developing a VR game with 12 other collaborators called Wacktory.
+                            You can see this as well as some of my other work in my portfolio link. However, when I'm
+                            not staring at my computer screen, I spend my spare time (and money) playing and composing
+                            music.
+                            If you are interested in having me serenade your ears, or would like me as part of your
+                            team, please feel free to contact me with the email provided above.
                         </p>
                     </div>
-                    <div id = "software">
+                    <div id="software">
                         <h2>Software</h2>
                         <ul>
-                            <li><img src = "./images/unityLogo.png"></li>
-                            <li><img src = "./images/gameMakerLogo.png"></li>
-                            <li><img src = "./images/phaserLogo.png"></li>
-                            <li><img src = "./images/androidStudioLogo.png"></li>
-                            <li><img src = "./images/webGLLogo.png"></li>
+                            <li><img src="./images/unityLogo.png"></li>
+                            <li><img src="./images/gameMakerLogo.png"></li>
+                            <li><img src="./images/phaserLogo.png"></li>
+                            <li><img src="./images/androidStudioLogo.png"></li>
+                            <li><img src="./images/webGLLogo.png"></li>
                         </ul>
                     </div>
                 </div>
@@ -104,5 +103,6 @@
         <footer>
             <p>Josh Clouse 6/22/2019</p>
         </footer>
-    </body>
+</body>
+
 </html>
