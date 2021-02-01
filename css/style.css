@@ -1,7 +1,7 @@
 body{
     /*font family is the font, size is size of font, line-height is vertical spacing, padding is margins */
     font-family: 'Montserrat', sans-serif;
-    font-size:15px;
+    font-size:16px;
     line-height:1.5;
     padding:0;
     color: #F2F2F2;
@@ -27,6 +27,23 @@ header{
 
 header p{
     font-size: 18px;
+}
+
+p{
+    min-width: 500px;
+}
+
+a{
+    text-decoration: none;
+    color: #5BF0DE;
+}
+
+footer{
+    min-height: 50px;
+    padding: 10px;
+    background-color: #272727;
+    text-align: center;
+    margin-bottom: 0px;
 }
 
 .flex-container-center{
@@ -92,16 +109,21 @@ header p{
     color: #F2F2F2;
 }
 
-#background-image{
-
+#bio{
+    text-align: center;
+    margin: auto;
+    max-width: 1400px;
 }
 
-#bio{
-    width: 60%;
+#bio div{
+    margin-top:30px;
 }
 
 #bio img{
     border-radius: 1%;
+    border-right: 2px solid #F2F2F2;
+    padding-right: 20px;
+    margin-right: 20px;
     width:300px;
 }
 
@@ -109,6 +131,10 @@ header p{
     font-size:70px;
     margin:auto;
     white-space: nowrap;
+}
+
+#bio hr{
+    width:100%;
 }
 
 /*Conditional formatting*/
@@ -127,5 +153,17 @@ header p{
     hr{
         width: 90%;
         margin:auto;
+    }
+}
+
+@media (max-width: 850px){
+    .flex-container-center{
+        flex-wrap:wrap;
+    }
+
+    #bio img{
+        border-right: 0px;
+        border-bottom: 2px solid #f2f2f2;
+        padding-bottom: 20px;
     }
 }
