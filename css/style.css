@@ -9,12 +9,20 @@ body{
 }
 
 hr{
-    width: 50%;
+    width: 60%;
     margin:auto;
 }
 
 header{
     margin-bottom: 20px;
+    min-height: 300px;
+    /*gets the background and only shows the image once. It then sets its position within the image to be at 0 i.e. the image will
+    start on the far left part of it, and then -400 so the it will start with 400 pixels down from the top left corner of the image.
+    This basically shows what part of the image will be the top right corner on the webpage.*/
+    /*linear gradient just makes it darker. Make sure to put it before the image otherwise it will just be a solid color*/
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.8)), url('../images/santaCruz.jpg') no-repeat 0 -500px;
+    text-align:center;
+    color:#ffffff;
 }
 
 header p{
@@ -63,12 +71,12 @@ header p{
 
 #contact-info{
     width: 100%;
+    font-size: 17px;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     flex-direction: row;
-    flex-flow: wrap;
 }
 
 #contact-info img{
@@ -82,4 +90,42 @@ header p{
     align-items: center;
     text-decoration:none;
     color: #F2F2F2;
+}
+
+#background-image{
+
+}
+
+#bio{
+    width: 60%;
+}
+
+#bio img{
+    border-radius: 1%;
+    width:300px;
+}
+
+#bio h1{
+    font-size:70px;
+    margin:auto;
+    white-space: nowrap;
+}
+
+/*Conditional formatting*/
+@media (max-width: 500px){
+    #contact-info{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1300px){
+    hr{
+        width: 90%;
+        margin:auto;
+    }
 }
