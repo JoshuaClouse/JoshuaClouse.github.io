@@ -22,6 +22,7 @@ header{
     /*linear gradient just makes it darker. Make sure to put it before the image otherwise it will just be a solid color*/
     background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.8)), url('../images/santaCruz.jpg') no-repeat 0 -500px;
     text-align:center;
+    border-bottom: 2px solid #F2F2F2;
     color:#ffffff;
 }
 
