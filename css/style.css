@@ -1,11 +1,12 @@
 body{
     /*font family is the font, size is size of font, line-height is vertical spacing, padding is margins */
     font-family: 'Montserrat', sans-serif;
-    font-size:16px;
+    font-size:18px;
     line-height:1.5;
     padding:0;
+    margin: 0;
     color: #F2F2F2;
-    background-color:#1A1A1A;
+    /*background-color:#1A1A1A;*/
 }
 
 hr{
@@ -14,24 +15,15 @@ hr{
 }
 
 header{
-    margin-bottom: 20px;
     min-height: 300px;
-    /*gets the background and only shows the image once. It then sets its position within the image to be at 0 i.e. the image will
-    start on the far left part of it, and then -400 so the it will start with 400 pixels down from the top left corner of the image.
-    This basically shows what part of the image will be the top right corner on the webpage.*/
-    /*linear gradient just makes it darker. Make sure to put it before the image otherwise it will just be a solid color*/
-    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.8)), url('../images/santaCruz.jpg') no-repeat 0 -500px;
-    text-align:center;
-    border-bottom: 2px solid #F2F2F2;
-    color:#ffffff;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    border-bottom: 3px solid #F2F2F2;
 }
+
 
 header p{
     font-size: 18px;
-}
-
-p{
-    min-width: 500px;
 }
 
 a{
@@ -45,6 +37,7 @@ footer{
     background-color: #272727;
     text-align: center;
     margin-bottom: 0px;
+    width: 100%;
 }
 
 .flex-container-center{
@@ -70,6 +63,24 @@ footer{
 .contact-info-item{
     display: flex;
     align-items:center;
+}
+
+#background{
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.8)), url('../images/santaCruz.jpg') no-repeat 0 -500px;
+    height: 300px;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+#content{
+    background-color: #1A1A1A;
+    width: 100%;
+    padding: 10px;
+    padding-top: 50px;
 }
 
 #top-bar{
@@ -110,28 +121,52 @@ footer{
     color: #F2F2F2;
 }
 
+#quote{
+    max-width:1400px;
+    margin: auto;
+    margin-bottom: 100px;
+    border: 3px solid #F2F2F2;
+    width:80%
+}
+
+#quote h3{
+    width: 100%;
+    margin: auto;
+    font-family: 'Comfortaa', cursive;
+    font-size: 35px;
+    font-weight: 100;
+    text-align: center;
+}
+
+#quote p{
+    font-size: 20px;
+    width: 80%;
+    margin:auto;
+    text-align: center;
+}
+
 #bio{
     text-align: center;
     margin: auto;
-    max-width: 1400px;
+    max-width: 1000px;
+    width: 100%;
 }
 
 #bio div{
     margin-top:30px;
 }
 
-#bio img{
-    border-radius: 1%;
-    border-right: 2px solid #F2F2F2;
-    padding-right: 20px;
-    margin-right: 20px;
-    width:300px;
-}
-
 #bio h1{
     font-size:70px;
     margin:auto;
     white-space: nowrap;
+}
+
+#bio p{
+    margin-top: 10px;
+    border: 3px solid #F2F2F2;
+    padding: 20px;
+    text-align: left;
 }
 
 #bio hr{
@@ -154,17 +189,5 @@ footer{
     hr{
         width: 90%;
         margin:auto;
-    }
-}
-
-@media (max-width: 850px){
-    .flex-container-center{
-        flex-wrap:wrap;
-    }
-
-    #bio img{
-        border-right: 0px;
-        border-bottom: 2px solid #f2f2f2;
-        padding-bottom: 20px;
     }
 }
