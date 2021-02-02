@@ -1,14 +1,41 @@
 function OnPageLoad(){
-    console.log("IN here");
     var background = document.getElementById("background");
     var foreground = document.getElementById("foreground");
 
     var foreGroundHeight = foreground.offsetHeight;
-    console.log("Pog: " + foreGroundHeight);
     background.style.height = foreGroundHeight +"px";
 }
 
+function ScrollAnim(){
+    console.log("Here");
+    var pageTop = document.body.scrollTop;
+    var pageBottom = pageTop + window.innerHeight;
+    var tags = document.getElementsByClassName("tag");
+
+    for(var i = 0; i < tags.length; i++){
+        var tag = tags[i];
+        const rect = tag.getBoundingClientRect();
+        
+        if(rect.top < pageBottom * .65){
+            tag.classList.add("visible");
+        }else{
+            tag.classList.remove("visible");
+        }
+    }
+}
+
+function AddScrollAnimation(){
+    var tags = document.getElementsByClassName("tag");
+
+    for(var i = 0; i < tags.length; i++){
+        var tag = tags[i];
+        tag.style.transition = "all 1s";
+    }
+}
+
+document.addEventListener('scroll', ScrollAnim);
 
 
 window.onload = OnPageLoad;
 window.onresize = OnPageLoad;
+window.onload = AddScrollAnimation;
