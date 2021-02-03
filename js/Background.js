@@ -16,7 +16,7 @@ function ScrollAnim(){
         var tag = tags[i];
         const rect = tag.getBoundingClientRect();
         
-        if(rect.top < pageBottom * .65){
+        if(rect.top < pageBottom * .75){
             tag.classList.add("visible");
         }else{
             tag.classList.remove("visible");
@@ -31,6 +31,9 @@ function AddScrollAnimation(){
         var tag = tags[i];
         tag.style.transition = "all 1s";
     }
+
+    var html = document.documentElement;
+    html.style.scrollBehavior = "smooth";
 }
 
 document.addEventListener('scroll', ScrollAnim);

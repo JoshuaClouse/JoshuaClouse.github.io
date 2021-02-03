@@ -18,7 +18,7 @@ hr{
 header{
     min-height: 300px;
     width: 100%;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     box-sizing: border-box;
     border-bottom: 3px solid #F2F2F2;
 }
@@ -35,7 +35,8 @@ a{
 
 footer{
     min-height: 50px;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: #272727;
     text-align: center;
     margin-bottom: 0px;
@@ -48,6 +49,16 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.flex-container-bottom{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
 }
 
 .highlight{
@@ -67,10 +78,76 @@ footer{
     align-items:center;
 }
 
+.contact-info-item p{
+    padding: 0px;
+    margin-right: 20px;
+    font-size: 25px;
+    color:#5BF0DE;
+}
+
+.subheading{
+    text-align: center;
+    margin: auto;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.subheading h1{
+    font-size:40px;
+    margin:auto;
+    white-space: nowrap;
+}
+
+.subheading hr{
+    width:100%;
+}
+
+.subheading img{
+    width: 150px;
+    margin-top: 10px;
+}
+
+.subheading h3{
+    line-height: 100%;
+    font-size:35px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+}
+
+.subheading p{
+    margin-left: 20px;
+    text-align: left;
+}
+
+.column-flex{
+    display: flex;
+    width: 185px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.column-flex p{
+    width: 99%;
+    margin: auto;
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom:0px;
+}
+
+.align-bottom{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 #background{
     background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.8)), url('../images/santaCruz.jpg') no-repeat 0 -500px;
     background-position: center;
-    height: 300px;
+    height: 334px;
     display: block;
     position: fixed;
     top: 0;
@@ -83,8 +160,8 @@ footer{
 #content{
     background-color: #1A1A1A;
     width: 100%;
-    padding: 10px;
     padding-top: 50px;
+    padding-bottom: 10px;
 }
 
 #top-bar{
@@ -149,30 +226,23 @@ footer{
     text-align: center;
 }
 
-#bio{
-    text-align: center;
-    margin: auto;
-    max-width: 1000px;
-    width: 100%;
-}
-
 #bio div{
     margin-top:30px;
 }
 
-#bio h1{
-    font-size:40px;
-    margin:auto;
-    white-space: nowrap;
-}
-
 #bio p{
+    margin: auto;
+    width: 85%;
     margin-top: 10px;
     text-align: left;
 }
 
-#bio hr{
-    width:100%;
+#work-history{
+    margin-top: 200px;
+}
+
+#work-history.flex-container-center{
+    flex-direction:column;
 }
 
 /*Conditional formatting*/
@@ -191,5 +261,22 @@ footer{
     hr{
         width: 90%;
         margin:auto;
+    }
+}
+
+@media (max-width: 700px){
+    .flex-container-bottom{
+        width: 80%;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+    }
+
+    .column-flex{
+        margin-bottom: 20px;
     }
 }
