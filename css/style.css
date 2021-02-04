@@ -103,7 +103,7 @@ footer{
 }
 
 .subheading img{
-    width: 150px;
+    width: 175px;
     margin-top: 10px;
 }
 
@@ -142,6 +142,11 @@ footer{
     margin-left: 20px;
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+p.link-paragraph{
+    margin-bottom: 0px;
+    margin-left: 0px;
 }
 
 #background{
@@ -243,6 +248,10 @@ footer{
 
 #work-history.flex-container-center{
     flex-direction:column;
+}
+
+#projects{
+    margin-top: 150px;
 }
 
 /*Conditional formatting*/
