@@ -152,7 +152,7 @@ p.link-paragraph{
 #background{
     background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.8)), url('../images/santaCruz.jpg') no-repeat 0 -500px;
     background-position: center;
-    height: 334px;
+    height: 364px;
     display: block;
     position: fixed;
     top: 0;
@@ -182,6 +182,7 @@ p.link-paragraph{
 
 #description{
     flex-direction: column;
+    margin-top: 30px;
 }
 
 #contact-info{
