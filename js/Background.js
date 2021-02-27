@@ -16,7 +16,7 @@ function ScrollAnim(){
         var tag = tags[i];
         const rect = tag.getBoundingClientRect();
         
-        if(rect.top < pageBottom * .75){
+        if(rect.top < pageBottom * .80){
             tag.classList.add("visible");
         }else{
             tag.classList.remove("visible");
