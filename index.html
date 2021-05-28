@@ -2,20 +2,20 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <!--we give this meta atribute a name which is just viewport but we then we set the content to make the width equal to the width of the device-->
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="Game Designer and Programmer">
-    <meta name="keywords" content="game design, cs, computer science, programming, programmer">
-    <meta name="author" content="Josh Clouse">
-    <!--This is what displays in the tab of the webpage-->
-    <title>Josh Clouse | Home Page</title>
-    <!--This just states we will need a stylesheet followedby the file location-->
-    <script src = "./js/Background.js"></script>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/animations.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<!--we give this meta atribute a name which is just viewport but we then we set the content to make the width equal to the width of the device-->
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="Game Designer and Programmer">
+	<meta name="keywords" content="game design, cs, computer science, programming, programmer">
+	<meta name="author" content="Josh Clouse">
+	<!--This is what displays in the tab of the webpage-->
+	<title>Josh Clouse | Home Page</title>
+	<!--This just states we will need a stylesheet followedby the file location-->
+	<script src="./js/Background.js"></script>
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/animations.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
 </head>
@@ -23,126 +23,185 @@
 <body>
 	<div id="background"></div>
 
-    <header id="foreground">
-        <div id="top-bar">
-            <div id="contact-info" class="fade-in">
-                <div class="contact-info-item"><img src="./images/email.png">JoshMClouse@Gmail.com</div>
-                <div class="contact-info-item"><a href="https://www.linkedin.com/in/joshua-clouse-b3a444155/"><img
-                            src="./images/linkedin.png"><span>Linkedin</span></a></div>
-                <div class="contact-info-item"><a href="https://github.com/JoshuaClouse"><img
-                            src="./images/github.png"><span>Github</span></a></div>
-            </div>
-        </div>
-        <div class="flex-container-center" id="description">
-            <h1 class="description-item fade-in" id="title">Josh <span class="highlight">Clouse</span></h1>
-            <hr class="fade-in">
-            <h1 class="description-item fade-in">GAME DESIGNER AND PROGRAMMER</h1>
-            <p class="description-item">
-                <span class="fade-in-delay1">UC Santa Cruz Graduate </span>
-                <span class="fade-in-delay2">| Unity Developer </span>
-                <span class="fade-in-delay3">| Software Engineer</span>
-            </p>
-        </div>
-        <div id="contact-info" class="fade-in">
-                <div class="contact-info-item"><a href="#work-history"><p>EXPERIENCE</p></a></div>
-                <div class="contact-info-item"><a href="#projects"><p>PROJECTS</p></a></div>
-        </div>
-    </header>
+	<header id="foreground">
+		<div id="top-bar">
+			<div id="contact-info" class="fade-in">
+				<div class="contact-info-item"><img src="./images/email.png">JoshMClouse@Gmail.com</div>
+				<div class="contact-info-item"><a href="https://www.linkedin.com/in/joshua-clouse-b3a444155/"><img
+							src="./images/linkedin.png"><span>Linkedin</span></a></div>
+				<div class="contact-info-item"><a href="https://github.com/JoshuaClouse"><img
+							src="./images/github.png"><span>Github</span></a></div>
+			</div>
+		</div>
+		<div class="flex-container-center" id="description">
+			<h1 class="description-item fade-in" id="title">Josh <span class="highlight">Clouse</span></h1>
+			<hr class="fade-in">
+			<h1 class="description-item fade-in">SOFTWARE ENGINEER & GAME DESIGNER</h1>
+			<p class="description-item">
+				<span class="fade-in-delay1">UC Santa Cruz Graduate </span>
+				<span class="fade-in-delay2">| Unity Developer </span>
+				<span class="fade-in-delay3">| Software Engineer</span>
+			</p>
+		</div>
+		<div id="contact-info" class="fade-in">
+			<div class="contact-info-item"><a href="#work-history">
+					<p>EXPERIENCE</p>
+				</a></div>
+			<div class="contact-info-item"><a href="#projects">
+					<p>PROJECTS</p>
+				</a></div>
+		</div>
+	</header>
 
-    <div id="content">
-    	<section id = "quote" class="fade-in flex-container-center">
-    		<div>
-		    	<h3>"Intelligent, motivated, driven. Please hire me."</h3>
-		    	<p>-Josh Clouse(2021)</p>
-	    	</div>
-    	</section>
+	<div id="content">
+		<section id="quote" class="fade-in flex-container-center">
+			<div>
+				<h3>"Intelligent, motivated, driven. Please hire me."</h3>
+				<p>-Josh Clouse(2021)</p>
+			</div>
+		</section>
 
 
-	    <section id="bio" class="subheading fade-in">
-	        <h1>About Me</h1>
-	        <hr>
-	        <div>
-	            <p>
-	                Congratulations! You are this site's 1000th visitor! Click <a href="https://joshclouse.com">here</a> to claim your prize! For those of you not brave enough to click that link, it just links back here. Hi, I'm Josh. I'm a game designer and software engineer. I graduated from UC Santa Cruz with a degree in Computer Science: Game Design. Currently I work at Leia Inc where I create interactive applications to showcase the capabilites of our 3D displays. I love taking on problems and enjoy the energy that comes with collaborating with other engineers. An added bonus is when I get to work with peers across disciplines. Although I am most at home with Unity, I openly welcome opportunities that allow me to work outside my comfort zone. Wherever there are development needs, I'm always up for the challenge. 
-	                <br><br>
-	                In my free time I enjoy writing and playing music. I'm currently in a band. I'd provide a link to our page, but I think we need a bit more practice before I have that kind of confidence. If you are in need of a Unity Dev, Software Developer, or would just like to be serenaded feel free to contact me at <span class = "highlight">JoshMClouse@gmail.com</span>. My Linkedin and Github are also provided <a href = "#top-bar">above</a>.
-	            </p>
-	        </div>
-	    </section>
+		<section id="bio" class="subheading fade-in">
+			<h1>About Me</h1>
+			<hr>
+			<div>
+				<p>
+					Congratulations! You are this site's 1000th visitor! Click <a href="https://joshclouse.com">here</a>
+					to claim your prize! For those of you not brave enough to click that link, it just links back here.
+					Hi, I'm Josh. I'm a game designer and software engineer. I graduated from UC Santa Cruz with a
+					degree in Computer Science: Game Design. After graduating college I worked as a Unity developer for
+					a
+					year at Leia Inc where I developed 3D interactive demos to showcase their displays. Currently I've
+					shifted
+					into web development, working at Veeva Systems on the vault reporting team. There I help to develop
+					both
+					the front and backend of their web app.
+					<br><br>
+					In my free time I enjoy writing and playing music. I'm currently in a band. I'd provide a link to
+					our page, but I think we need a bit more practice before I have that kind of confidence. If you are
+					in need of a Unity Dev, Software Developer, or would just like to be serenaded feel free to contact
+					me at <span class="highlight">JoshMClouse@gmail.com</span>. My Linkedin and Github are also provided
+					<a href="#top-bar">above</a>.
+				</p>
+			</div>
+		</section>
 
-	    <section id = "work-history" class = "subheading tag">
-	    	<h1>Experience</h1>
-	    	<hr>
-	    	<div class = "flex-container-bottom tag">
-	    		<div class = "column-flex">
-	    			<h3>Leia Inc.</h3>
-	    			<p>3/20 - Current</p>
-	    			<img src = "./images/LeiaInc.jpg">
-	    		</div>
-	    		<p class = "align-bottom">
-	    			Worked on the automotive team to create interactive 3D applications in Unity to showcase the capabilites of our 3D displays. Planned, designed, and executed a complete re-design of the auto demo to increase sustainability and maintainability for future builds and development. Created general use scripts to unify color settings, sizing, and scaling to allow our application to easily port to all our devices. Worked closely with UI designers to implement their designs into our application.
-	    		</p>
-	    	</div>
-	    	<div class = "flex-container-bottom tag">
-	    		<div class = "column-flex">
-	    			<h3>ID Tech</h3>
-		    		<p>5/19 - 9/19</p>
-		    		<img src = "./images/idTech.png">
-	    		</div>
-	    		<p class = "align-bottom">
-	    			Worked as a lead instructor at one of the ID Tech campuses in Livermore. Taught courses on the following subjects: Java, Unity, Unreal. In addition to my duties as a teacher, I also completed administartive tasks such as medical sheets, expense reports, attendance etc. Due to my position as lead instructor I also given the responsibility of managing my other instructors providing guidance and assistance when necessary.
-	    		</p>
-	    	</div>
-	    	<p class = "align-bottom">
+		<section id="work-history" class="subheading tag">
+			<h1>Experience</h1>
+			<hr>
+			<div class="flex-container-bottom tag">
+				<div class="column-flex">
+					<h3>Veeva</h3>
+					<p>05/03 - Current</p>
+					<img src="./images/veeva.png">
+				</div>
+				<p class="align-bottom">
+					Veeva is a web application that provides document management services for the life science industry.
+					Currently I am part of the reporting team and work to maintain the reporting framework. I do
+					both front end and back end developemt using tools such as Spring and Tomcat to maintain our module.
+					My primary focus is on flash reports which allow users to schedule reports to be run at specific
+					intervals.
+				</p>
+			</div>
+			<div class="flex-container-bottom tag">
+				<div class="column-flex">
+					<h3>Leia Inc.</h3>
+					<p>03/20 - 04/23</p>
+					<img src="./images/LeiaInc.jpg">
+				</div>
+				<p class="align-bottom">
+					Worked on the automotive team to create interactive 3D applications in Unity to showcase the
+					capabilites of our 3D displays. Planned, designed, and executed a complete re-design of the auto
+					demo to increase sustainability and maintainability for future builds and development. Created
+					general use scripts to unify color settings, sizing, and scaling to allow our application to easily
+					port to all our devices. Worked closely with UI designers to implement their designs into our
+					application. Developed the internal and external SDK and aided in getting Leia as a verified Unity
+					partner.
+				</p>
+			</div>
+			<div class="flex-container-bottom tag">
+				<div class="column-flex">
+					<h3>ID Tech</h3>
+					<p>05/19 - 09/19</p>
+					<img src="./images/idTech.png">
+				</div>
+				<p class="align-bottom">
+					Worked as a lead instructor at one of the ID Tech campuses in Livermore. Taught courses on the
+					following subjects: Java, Unity, Unreal. In addition to my duties as a teacher, I also completed
+					administartive tasks such as medical sheets, expense reports, attendance etc. Due to my position as
+					lead instructor I also given the responsibility of managing my other instructors providing guidance
+					and assistance when necessary.
+				</p>
+			</div>
+			<p class="align-bottom">
 
-	    	</p>
-	    </section>
+			</p>
+		</section>
 
-	    <section id = "projects" class = "subheading tag">
-	    	<h1>Projects</h1>
-	    	<hr>
-	    	<div class = "flex-container-bottom tag">
-	    		<div class = "column-flex">
-	    			<h3>Wacktory</h3>
-	    			<img src = "./images/wacktory.png">
-	    		</div>
-	    		<div class = "align-bottom">
-		    		<p class = "link-paragraph">
-		    			A VR game combined with a couch co-op experience, Wacktory is a fast paced game that forces players to work together in order to fill all their orders on time. With a diverse team of 13 memebers coming from varying backgrounds and roles, I took the lead on developing and implementing the core gameplay loop in addition to contributing pivotal game design decisions which greatly improved user experience. In addition to the gameplay loop, I was also responsible for implementing the UI in the main menu. On top of my duties as a core developer, I also composed the music for this game. If you would like to play Wacktory you can find it here on <a href = "https://store.steampowered.com/app/1082750/Wacktory/">Steam</a>.
-		    		</p>
-	    		</div>
-	    	</div>
-	    	<div class = "flex-container-bottom tag">
-	    		<div class = "column-flex">
-	    			<br>
-	    			<h3>Phonote</h3>
-	    			<img src = "./images/phonote.png">
-	    		</div>
-	    		<div class = "align-bottom">
-		    		<p class = "link-paragraph">
-		    			Phonote is an app created in Android Studio by me and 4 other collaborators. It aims to help students take notes easier by converting images to text and autogenerating citation info. Users can either take a picture in the app, or use a picture from their gallery to convert into text. A book title is all that is needed to automatically generate citation info. Users can also save their projects to google drive. Development on the project has stopped and the app is not available on Google Play, however a video showing all its features can be seen <a href = "https://www.youtube.com/watch?v=VzPVMVjkYqE">here</a>.
-		    		</p>
-	    		</div>
-	    	</div>
-	    	<div class = "flex-container-bottom tag">
-	    		<div class = "column-flex">
-	    			<h3>Alien<br>Invasion</h3>
-	    			<img src = "./images/alienInvasion.gif">
-	    		</div>
-	    		<div class = "align-bottom">
-		    		<p class = "link-paragraph">
-		    			This is a satirical top down shot-em-up game where the player has to fight their way through hoardes of aliens to make it to an evacuation site. With a team of 4 other individuals, we created this web game using the Javascript framework Phaser. My contribution was implementing the basic movement controls and scene management. I also did much of the work to program and create sound effects for the game. The full game can be viewed and played on itch.io at this <a href = "https://ninjacat74.itch.io/alien-invasion">link</a>.
-		    		</p>
-	    		</div>
-	    	</div>
-	    </section>
-    </div>
+		<section id="projects" class="subheading tag">
+			<h1>Projects</h1>
+			<hr>
+			<div class="flex-container-bottom tag">
+				<div class="column-flex">
+					<h3>Wacktory</h3>
+					<img src="./images/wacktory.png">
+				</div>
+				<div class="align-bottom">
+					<p class="link-paragraph">
+						A VR game combined with a couch co-op experience, Wacktory is a fast paced game that forces
+						players to work together in order to fill all their orders on time. With a diverse team of 13
+						memebers coming from varying backgrounds and roles, I took the lead on developing and
+						implementing the core gameplay loop in addition to contributing pivotal game design decisions
+						which greatly improved user experience. In addition to the gameplay loop, I was also responsible
+						for implementing the UI in the main menu. On top of my duties as a core developer, I also
+						composed the music for this game. If you would like to play Wacktory you can find it here on <a
+							href="https://store.steampowered.com/app/1082750/Wacktory/">Steam</a>.
+					</p>
+				</div>
+			</div>
+			<div class="flex-container-bottom tag">
+				<div class="column-flex">
+					<br>
+					<h3>Phonote</h3>
+					<img src="./images/phonote.png">
+				</div>
+				<div class="align-bottom">
+					<p class="link-paragraph">
+						Phonote is an app created in Android Studio by me and 4 other collaborators. It aims to help
+						students take notes easier by converting images to text and autogenerating citation info. Users
+						can either take a picture in the app, or use a picture from their gallery to convert into text.
+						A book title is all that is needed to automatically generate citation info. Users can also save
+						their projects to google drive. Development on the project has stopped and the app is not
+						available on Google Play, however a video showing all its features can be seen <a
+							href="https://www.youtube.com/watch?v=VzPVMVjkYqE">here</a>.
+					</p>
+				</div>
+			</div>
+			<div class="flex-container-bottom tag">
+				<div class="column-flex">
+					<h3>Alien<br>Invasion</h3>
+					<img src="./images/alienInvasion.gif">
+				</div>
+				<div class="align-bottom">
+					<p class="link-paragraph">
+						This is a satirical top down shot-em-up game where the player has to fight their way through
+						hoardes of aliens to make it to an evacuation site. With a team of 4 other individuals, we
+						created this web game using the Javascript framework Phaser. My contribution was implementing
+						the basic movement controls and scene management. I also did much of the work to program and
+						create sound effects for the game. The full game can be viewed and played on itch.io at this <a
+							href="https://ninjacat74.itch.io/alien-invasion">link</a>.
+					</p>
+				</div>
+			</div>
+		</section>
+	</div>
 
-    
 
-    <footer>
-        <p>Josh Clouse 2/1/2021</p>
-    </footer>
+
+	<footer>
+		<p>Josh Clouse 2/1/2021</p>
+	</footer>
 </body>
 
 </html>
