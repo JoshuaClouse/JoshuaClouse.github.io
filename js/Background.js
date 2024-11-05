@@ -7,7 +7,6 @@ function OnPageLoad(){
 }
 
 function ScrollAnim(){
-    console.log("Here");
     var pageTop = document.body.scrollTop;
     var pageBottom = pageTop + window.innerHeight;
     var tags = document.getElementsByClassName("tag");
