@@ -22,7 +22,7 @@ const Header = (props) => {
                 </p>
             </div>
             <div id="contact-info" className="fade-in">
-                <div className="contact-info-item"><a href="#work-history">
+                <div className="contact-info-item"><a href="#experience">
                         <p>EXPERIENCE</p>
                     </a></div>
                 <div className="contact-info-item"><a href="#projects">

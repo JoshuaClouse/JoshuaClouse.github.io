@@ -247,11 +247,11 @@ p.link-paragraph{
   text-align: left;
 }
 
-#work-history{
+#experience{
   margin-top: 200px;
 }
 
-#work-history.flex-container-center{
+#experience.flex-container-center{
   flex-direction:column;
 }
 

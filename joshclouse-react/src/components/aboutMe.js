@@ -1,6 +1,6 @@
 const AboutMe = (props) => {
     return(
-        <div id={"bio"} className={"subheading fade-in aboutMe"}>
+        <section id={"bio"} className={"subheading fade-in aboutMe"}>
             <h1>About Me</h1>
             <hr></hr>
             <div>
@@ -24,7 +24,7 @@ const AboutMe = (props) => {
                     </a>. You can find my professional resume below. Thanks for visiting.
                 </p>
             </div>
-        </div>
+        </section>
     );
 }
 

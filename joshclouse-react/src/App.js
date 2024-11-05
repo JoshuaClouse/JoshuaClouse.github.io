@@ -2,6 +2,7 @@ import './App.css';
 import './styles/animations.css'
 import Header from './components/header.js'
 import AboutMe from './components/aboutMe.js';
+import Experience from './components/experience.js';
 
 function App() {
   return (
@@ -13,7 +14,10 @@ function App() {
       <title>Josh Clouse | Home Page</title>
       <div id={'background'}></div>
       <Header></Header>
-      <AboutMe></AboutMe>
+      <div id="content">
+        <AboutMe></AboutMe>
+        <Experience></Experience>
+      </div>
     </div>
   );
 }
